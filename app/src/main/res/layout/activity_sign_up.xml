@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register.SignUpActivity">
+
+    <EditText
+        android:id="@+id/signUpName"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:hint="Name"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/signUpEmail"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/signUpHp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Number Phone"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/signUpPassword"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Passsword"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/signUpConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Confirm Password"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/background2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+</LinearLayout>

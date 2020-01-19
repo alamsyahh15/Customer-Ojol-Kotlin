@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:background="@drawable/city"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/profile"
+            android:layout_gravity="center|bottom"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:padding="32dp"
+        android:layout_below="@id/frame1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Nama Lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="match_parent"
+            android:text="Muhamad Alamsyah"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Email Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/darker_gray"
+            android:text="muhamad.a.syah31@gmail.com"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Number Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/profilePhone"
+            android:layout_width="match_parent"
+            android:text="083823960174"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:background="@drawable/background2"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>
